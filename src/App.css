@@ -1,0 +1,11 @@
+.card {
+  height: 100%; 
+}
+
+.card-body {
+  min-height: 150px;
+}
+
+.ratio-4x3 img {
+  object-fit: cover; 
+}
