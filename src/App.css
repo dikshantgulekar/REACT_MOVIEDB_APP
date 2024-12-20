@@ -1,11 +1,23 @@
+
+
 .card {
-  height: 100%; 
-}
+    height: 100%; 
+  }
+  
+  .card-body {
+    min-height: 150px; 
+  }
+  
+  .ratio-4x3 img {
+    object-fit: cover; 
+  }
 
-.card-body {
-  min-height: 150px;
-}
 
-.ratio-4x3 img {
-  object-fit: cover; 
-}
+  .page-link {
+    background-color: #032541 !important;
+    color: #fff !important;
+  }  
+  .page-link:active{
+    background-color: #fff;
+  }
+  
